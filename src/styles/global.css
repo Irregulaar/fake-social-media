@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Twitter Chirp";
+  src: url("/TwitterFonts/Chirp-Heavy.eot");
+  src:
+    url("/TwitterFonts/Chirp-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("/TwitterFonts/Chirp-Heavy.woff2") format("woff2"),
+    url("/TwitterFonts/Chirp-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Twitter Chirp";
+  src: url("/TwitterFonts/Chirp-Bold.eot");
+  src:
+    url("/TwitterFonts/Chirp-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/TwitterFonts/Chirp-Bold.woff2") format("woff2"),
+    url("/TwitterFonts/Chirp-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Twitter Chirp";
+  src: url("/TwitterFonts/Chirp-Regular.eot");
+  src:
+    url("/TwitterFonts/Chirp-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/TwitterFonts/Chirp-Regular.woff2") format("woff2"),
+    url("/TwitterFonts/Chirp-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Twitter Chirp";
+  src: url("/TwitterFonts/Chirp-Medium.eot");
+  src:
+    url("/TwitterFonts/Chirp-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/TwitterFonts/Chirp-Medium.woff2") format("woff2"),
+    url("/TwitterFonts/Chirp-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
