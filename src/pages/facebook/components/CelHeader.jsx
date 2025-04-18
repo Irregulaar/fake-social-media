@@ -4,7 +4,7 @@ import BatteryIcon from "@/icons/twitter/battery.svg?react";
 
 function CelHeader() {
   return (
-    <div className="flex flex-row items-center justify-between px-8 pt-0.5 text-white font-['Poppins']">
+    <div className="flex flex-row items-center justify-between px-8 pt-0.5 text-black font-['Poppins']">
       <span className="tracking-widest text-[12px]">11:41</span>
       <div className="flex flex-row items-center justify-center">
         <WifiIcon className="w-5 h-5" />

@@ -1,20 +1,20 @@
 import CelHeader from "../components/CelHeader";
-import ArrowLeftIcon from "@/icons/arrowleft.svg?react";
-import CallIcon from "@/icons/call.svg?react";
-import CameraIcon from "@/icons/camera.svg?react";
-import GalleryIcon from "@/icons/gallery.svg?react";
-import GifIcon from "@/icons/gif.svg?react";
-import VoiceprintIcon from "@/icons/voiceprint.svg?react";
-import MenuIcon from "@/icons/menu.svg?react";
-import SquareRoundedIcon from "@/icons/squarerounded.svg?react";
-import ArrowBackIcon from "@/icons/arrowback.svg?react";
+import ArrowLeftIcon from "@/icons/twitter/arrowleft.svg?react";
+import CallIcon from "@/icons/twitter/call.svg?react";
+import CameraIcon from "@/icons/twitter/camera.svg?react";
+import GalleryIcon from "@/icons/twitter/gallery.svg?react";
+import GifIcon from "@/icons/twitter/gif.svg?react";
+import VoiceprintIcon from "@/icons/twitter/voiceprint.svg?react";
+import MenuIcon from "@/icons/twitter/menu.svg?react";
+import SquareRoundedIcon from "@/icons/twitter/squarerounded.svg?react";
+import ArrowBackIcon from "@/icons/twitter/arrowback.svg?react";
 
 function TwitterPage() {
   return (
-    <div className="flex items-start justify-center w-full h-screen">
-      <div className="flex flex-col bg-black h-fit w-100">
+    <div className="flex items-start justify-center w-full h-fit md:h-screen">
+      <div className="flex flex-col h-full bg-black w-100">
         <CelHeader />
-        <div className="font-['Twitter_Chirp'] flex flex-col h-full">
+        <div className="font-['Twitter_Chirp'] flex flex-col h-fit md:h-full">
           <div className="flex flex-row items-center px-5 py-6 text-white">
             <ArrowLeftIcon className="w-5 h-5 mr-5" />
 
@@ -51,14 +51,14 @@ function TwitterPage() {
 
             <div className="flex flex-col items-start gap-1 p-3">
               <span className="text-[14px] bg-[#253134] p-3 w-fit h-fit rounded-[20px]">hello!</span>
-              <span className="text-[14px] bg-[#253134] p-3 h-fit rounded-[20px] rounded-bl-none w-fit max-w-[70%]">
+              <span className="text-[13.5px] bg-[#253134] p-3 h-fit rounded-[20px] text-balance rounded-bl-none w-fit max-w-[70%]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
               </span>
               <span className="text-[13px] text-[#787878]">12:11 p. m.</span>
             </div>
 
             <div className="flex flex-col items-end gap-1 p-3">
-              <span className="text-[14px] bg-[#1b9bed] p-3 h-fit rounded-[20px] rounded-br-none w-fit max-w-[70%]">
+              <span className="text-[13.5px] bg-[#1b9bed] p-3 h-fit rounded-[20px] text-balance rounded-br-none w-fit max-w-[70%]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
               </span>
               <span className="text-[13px] text-[#787878]">12:11 p. m.</span>
